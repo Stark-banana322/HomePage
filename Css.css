@@ -38,6 +38,8 @@ body_lock {
   margin: 0px auto;
 }
 .headers_menu {
+  position: relative;
+  z-index: 100;
   padding: 10px 0;
   height: 82px;
   -webkit-box-align: center;
