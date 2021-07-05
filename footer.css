@@ -1,0 +1,30 @@
+.footer {
+  text-align: center;
+  padding: 50px 0px;
+}
+.footer__social {
+  margin: 0px 0px 25px 0px;
+}
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.social__item {
+  -webkit-transition: color 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
+  margin: 0px 17px;
+  font-size: 30px;
+  color: inherit;
+}
+@media (min-width: 991.98px) {
+  .social__item:hover {
+    color: #ff6464;
+  }
+}
